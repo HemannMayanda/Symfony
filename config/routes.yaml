@@ -1,0 +1,22 @@
+hello:
+    path: /hello/{prenom<[a-zA-Z]+>}
+    controller: App\Controller\HelloWorldController::hello
+helloliste:
+    path: /helloliste/
+    controller: App\Controller\HelloWorldController::helloListe
+form:
+    path: /form
+    controller : App\Controller\HelloWorldController::form
+    methods : GET
+formReceive:
+    path: /form
+    controller: App\Controller\HelloWorldController::formReceive
+    methods : POST
+loginForm:
+    path: /login
+    controller: App\Controller\Forms\LoginController::loginForm
+    methods : GET|POST
+#loginPost:
+#    path: /login
+#    controller: App\Controller\Forms\LoginController::loginPost
+#    methods : POST

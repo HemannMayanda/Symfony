@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+{%  block title %}
+    Hello !
+{%  endblock %}
+{% block body %}
+    <ul>
+    {% for prenom in liste %}
+        <li><a href="{{ path('hello') }}">Retour</a><br/>{{ prenom }}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}
