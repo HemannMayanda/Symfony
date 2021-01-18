@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26b853a8-f8d2-4888-bd84-bf4c70e22ee7" name="Default Changelist" comment="" />
+    <list default="true" id="26b853a8-f8d2-4888-bd84-bf4c70e22ee7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/migrations/Version20210118105134.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/00758580-1f8f-47c4-8f92-077a905c78ee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/00758580-1f8f-47c4-8f92-077a905c78ee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +174,7 @@
       <updated>1609745405546</updated>
       <workItem from="1609745410812" duration="10895000" />
       <workItem from="1610348700784" duration="13172000" />
-      <workItem from="1610955063698" duration="10920000" />
+      <workItem from="1610955063698" duration="11570000" />
     </task>
     <task id="LOCAL-00001" summary="Td  - Controller crée">
       <created>1610963431234</created>
@@ -183,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610965418492</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Td 03 - Entités User et Role crées">
+      <created>1610966996921</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610966996921</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +208,8 @@
     <MESSAGE value="Td 2" />
     <MESSAGE value="Td  - Controller crée" />
     <MESSAGE value="Td 03 - Affichage du cake crée" />
-    <option name="LAST_COMMIT_MESSAGE" value="Td 03 - Affichage du cake crée" />
+    <MESSAGE value="Td 03 - Entités User et Role crées" />
+    <option name="LAST_COMMIT_MESSAGE" value="Td 03 - Entités User et Role crées" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

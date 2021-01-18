@@ -24,3 +24,7 @@ createCake:
     path: /cake
     controller : App\Controller\Forms\CakeController::createCake
     methods : GET
+createUser:
+    path: /user
+    controller : App\Controller\Forms\CakeController::createUser
+    methods : GET
