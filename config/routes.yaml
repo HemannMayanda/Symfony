@@ -20,3 +20,7 @@ loginForm:
 #    path: /login
 #    controller: App\Controller\Forms\LoginController::loginPost
 #    methods : POST
+createCake:
+    path: /cake
+    controller : App\Controller\Forms\CakeController::createCake
+    methods : GET
